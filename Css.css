@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Kodchasan&family=Mitr&display=swap');
+/*@media screen {
+    max-width: 40;
+}*/
+body{
+ background: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+background-size: cover;
+ font-family: 'Kanit', sans-serif;
+ font-family: 'Kodchasan', sans-serif;
+ font-family: 'Mitr', sans-serif;
+ font-weight: bold;
+ font-size: 20px;
+ margin: 0;
+
+}
+.navbar{
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;   
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+}
+.textbg
+{
+ background:#ffff;
+ background-color: rgba(200, 200, 200, 0.4);
+ backdrop-filter: blur(25px);
+ padding:10px 1px;
+ border-radius:1em;
+ width: 60%;
+ max-width: 100% ;
+ height:auto;
+ margin-top: 60px;
+ background-position: center;
+ margin:2rem auto;
+ margin:0;
+ background-size: cover;
+ background-position:center;
+ margin-top: 60px;
+ text-align: center;
+}
+.pop
+{
+font-size:2em;
+}
+img{
+width: 60%;
+border-radius: 0.5em;
+}
+
+.header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.li2{
+    
+   display: inline-block;
+   margin-left: 50px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding: relative;
+}
+.li3{
+   float: right; 
+   margin-left: 50px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding: relative;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(138, 255, 255);
+    text-decoration: underline;
+}
+h1{
+    padding-bottom: 5px;
+}
+.bo{
+    border: dashed 4px rgba(0, 162, 255, 0.842) ;
+    border-radius: 10px;
+    background-color:  rgb(236, 233, 220) ;
+}
+p{
+    font-size:1rem
+}
+h1{
+    font-size: 60px;
+}
+.font{
+    color: black;
+    font-size: 26px;
+    padding: 5px;
+    text-align: left;
+}
+.font:hover{
+    color: black;
+}
+.Title{
+    text-align: left; 
+    font-size: 29px;
+}
+#back-top {
+    position: fixed;
+    bottom: 15px;
+    /*margin-left: -150px;*/
+    right: 20px;
+}
+
+#back-top a {
+    /*width: 60px;*/
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    opacity: 0.9;
+
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+#back-top a:hover {
+    color: #000;
+}
+
+/* arrow icon (span tag) */
+#back-top span {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-bottom: 7px;
+    background-image:url('ลูกศร.png');
+    background-size: cover;
+    background-position:center;
+    /* rounded corners */
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+.fdata{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 17px;
+}
+.data{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 17px;
+}
