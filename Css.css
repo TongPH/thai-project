@@ -4,13 +4,15 @@
 }*/
 body{
  background: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
-background-size: cover;
+ /*background: url("https://i.pinimg.com/originals/54/e0/0d/54e00d34f2eefd58798d055090ce49e4.gif");*/
+ background-size: cover;
  font-family: 'Kanit', sans-serif;
  font-family: 'Kodchasan', sans-serif;
  font-family: 'Mitr', sans-serif;
  font-weight: bold;
  font-size: 20px;
  margin: 0;
+ background-attachment: fixed;
 
 }
 .navbar{
@@ -104,6 +106,7 @@ h1{
     font-size: 26px;
     padding: 5px;
     text-align: left;
+    text-shadow: 1px 1px 2px #f2f2f2ce;
 }
 .font:hover{
     color: black;
@@ -111,6 +114,7 @@ h1{
 .Title{
     text-align: left; 
     font-size: 29px;
+    text-shadow: 0.5px 1px 1px #dddddd;
 }
 #back-top {
     position: fixed;
@@ -163,10 +167,12 @@ h1{
     padding-left: 50px;
     padding-right: 50px;
     font-size: 17px;
+    text-shadow: 0px 1px 1px #979797;
 }
 .data{
     text-align: left;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 17px;
+    text-shadow: 0px 1px 1px #979797;
 }
